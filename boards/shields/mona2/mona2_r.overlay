@@ -54,8 +54,8 @@
         irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>; //P0.02を指定(MOTION)
         cpi = <600>;
         //swap-xy;
-        //invert-x; //COROPIT版ではコメントアウトを外す
-        //invert-y; //COROPIT版ではコメントアウトを外す
+        invert-x; //COROPIT版ではコメントアウトを外す
+        invert-y; //COROPIT版ではコメントアウトを外す
         evt-type = <INPUT_EV_REL>;
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
@@ -67,6 +67,7 @@
 &trackball_central_listener {
     status = "okay";
     device = <&trackball_central>;
+    input-processors = <&zip_temp_layer 5 1400>;
 
     scroller {
         layers = <3>;
@@ -78,4 +79,12 @@
             <&zip_scroll_scaler 1 5>;                           //スクロール量を1/4倍
     };
 
+};
+
+&zip_temp_layer {
+    excluded-positions = <
+        17 /* J */
+        18 /* K */
+        19 /* L */
+    >;
 };
