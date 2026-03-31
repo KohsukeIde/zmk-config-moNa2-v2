@@ -38,7 +38,7 @@ layers:
   - LEFT ALT
   - LCTRL
   - {t: LANG2, h: LEFT SHIFT}
-  - {t: ENTER, h: '1'}
+  - {t: SPACE, h: '1'}
   - {t: LANG1, h: '3'}
   - BACKSPACE
   - {t: ENTER, h: '2'}
