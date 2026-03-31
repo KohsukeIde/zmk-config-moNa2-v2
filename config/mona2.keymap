@@ -111,7 +111,7 @@
             bindings = <
 &trans  &kp LC(LS(TAB))     &kp PRINTSCREEN         &kp LC(TAB)              &trans                                     &trans  &kp LBKT              &kp RBKT               &trans  &trans
 &trans  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)     &kp LC(LG(LEFT_ARROW))   &kp LC(LG(RIGHT_ARROW))            &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans
-&trans  &kp LEFT_SHIFT      &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans                   &trans    &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans  &trans
+&trans  &trans              &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans                   &trans    &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans  &trans
 &trans  &trans              &trans                  &trans                   &trans                   &trans    &trans  &trans                                                       &trans
             >;
 
