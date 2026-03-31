@@ -37,9 +37,9 @@ layers:
   - LEFT COMMAND
   - LEFT ALT
   - LCTRL
-  - {t: LANG2, h: LEFT SHIFT}
+  - {t: LANG1, h: LEFT SHIFT}
   - {t: SPACE, h: '1'}
-  - {t: LANG1, h: '3'}
+  - {t: LANGUAGE 2, h: '3'}
   - BACKSPACE
   - {t: ENTER, h: '2'}
   - {t: ESC, h: '6'}
