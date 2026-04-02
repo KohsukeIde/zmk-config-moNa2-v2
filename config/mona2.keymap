@@ -87,10 +87,10 @@
 
         layer_1 {
             bindings = <
-&trans  &trans              &kp LC(UP_ARROW)    &trans               &trans                             &kp PG_UP    &kp LG(LEFT_ARROW)  &kp UP_ARROW    &kp RG(RIGHT_ARROW)  &kp PG_DN
-&trans  &kp LC(LEFT_ARROW)  &kp LC(DOWN_ARROW)  &kp LC(RIGHT_ARROW)  &trans            &trans           &kp HOME     &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp END
-&trans  &trans              &trans              &trans               &trans  &trans    &trans           &trans       &trans              &kp K_MUTE      &kp C_VOLUME_DOWN    &kp C_VOLUME_UP
-&trans  &trans              &trans              &trans               &trans  &trans    &kp LS(LC(TAB))  &kp LC(TAB)                                                           &trans
+&trans   &trans              &kp LC(UP_ARROW)    &trans               &trans                             &kp PG_UP    &kp LG(LEFT_ARROW)  &kp UP_ARROW    &kp RG(RIGHT_ARROW)  &kp PG_DN
+&kp TAB  &kp LC(LEFT_ARROW)  &kp LC(DOWN_ARROW)  &kp LC(RIGHT_ARROW)  &trans            &trans           &kp HOME     &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp END
+&trans   &trans              &trans              &trans               &trans  &trans    &trans           &trans       &trans              &kp K_MUTE      &kp C_VOLUME_DOWN    &kp C_VOLUME_UP
+&trans   &trans              &trans              &trans               &trans  &trans    &kp LS(LC(TAB))  &kp LC(TAB)                                                           &trans
             >;
 
             sensor-bindings = <&scroll_right_left>;
