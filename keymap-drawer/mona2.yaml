@@ -54,7 +54,7 @@ layers:
   - UP ARROW
   - Gui+RIGHT ARROW
   - PG DN
-  - {t: ▽, type: trans}
+  - TAB
   - Ctl+LEFT ARROW
   - Ctl+DOWN ARROW
   - Ctl+RIGHT ARROW
