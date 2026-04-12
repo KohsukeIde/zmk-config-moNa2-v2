@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - ;
+  - ''''
   - H
   - J
   - K
@@ -28,7 +28,7 @@ layers:
   - V
   - B
   - {t: TAB, h: '4'}
-  - F15
+  - '~'
   - N
   - M
   - ','
@@ -150,7 +150,7 @@ layers:
   - (
   - )
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+Sft+LEFT ARROW
