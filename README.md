@@ -2,6 +2,21 @@
 
 <img src="keymap-drawer/mona2_01.svg">
 
+# ファームウェアのダウンロード / Firmware Download
+
+ファームウェアは GitHub Actions によって自動的にビルドされます。以下の手順でダウンロードできます。
+
+The firmware is automatically built by GitHub Actions. Follow these steps to download it:
+
+1. このリポジトリの [**Actions**](../../actions) タブを開きます。  
+   Open the [**Actions**](../../actions) tab of this repository.
+2. 最新の成功した **build** ワークフローをクリックします。  
+   Click the latest successful **build** workflow run.
+3. ページ下部の **Artifacts** セクションから `firmware` をダウンロードします。  
+   Download `firmware` from the **Artifacts** section at the bottom of the page.
+4. ZIP を展開して `.uf2` ファイルをキーボードに書き込みます。  
+   Extract the ZIP and flash the `.uf2` file to your keyboard.
+
 # COROPITを使用するへ
 
 COROPITを使用する方は以下のようにコードを編集してください。
